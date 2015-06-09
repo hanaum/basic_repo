@@ -1,3 +1,13 @@
 I am trying out github. This is the list of commands I made
 to create this repository
 
+mkdir git_initial
+cd git_initial/
+git init
+touch simple.txt
+subl commands.txt
+git status
+git add .
+git commit -m "initial commit"
+git remote add origin git@github.com:hanaum/basic_repo.git
+git push -u origin master
